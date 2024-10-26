@@ -29,7 +29,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 20px;
       }
 
       .control-btn {
@@ -83,7 +82,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 80vh;
+        height: 70vh;
       }
     </style>
   </head>
@@ -172,7 +171,7 @@
           .getElementById("pauseBtn")
           .addEventListener("click", togglePause);
 
-        intervalId = setInterval(update, 400); // Game updates every 100ms
+        intervalId = setInterval(update, 200); // Game updates every 100ms
       };
 
       function update() {
